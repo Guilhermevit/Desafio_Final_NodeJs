@@ -1,0 +1,163 @@
+2022-10-25T13:37:22.991Z [editora-api] info GET/cliente
+2022-10-25T13:39:55.650Z [editora-api] info POST /cliente - {"nome":"Guilherme Marcos Vit","email":"guivit@gmail.com","senha":"123456","telefone":"67999581929","endereco":"Rua 14 de julho, 4618, casa 01 - Campo Grande-MS"}
+2022-10-25T13:40:07.246Z [editora-api] info GET/cliente
+2022-10-25T13:40:44.133Z [editora-api] info PUT /cliente - {"clienteId":6,"nome":"Guilherme Marcos Vit","email":"guivit@gmail.com","senha":"12222","telefone":"67999581929","endereco":"Rua 14 de julho, 4618, casa 01 - Campo Grande-MS"}
+2022-10-25T13:40:49.635Z [editora-api] info GET/cliente
+2022-10-25T13:40:59.288Z [editora-api] info GET/cliente
+2022-10-25T13:41:12.862Z [editora-api] info DELETE/cliente
+2022-10-25T13:41:19.922Z [editora-api] info GET/cliente
+2022-10-25T14:24:36.064Z [editora-api] info GET/autores
+2022-10-25T14:25:34.083Z [editora-api] info POST /autores - {"nome":"Guilherme Marcos Vit","email":"guivit@gmail.com","telefone":"67999581929"}
+2022-10-25T14:25:38.694Z [editora-api] info GET/autores
+2022-10-25T14:26:12.549Z [editora-api] info GET/autores
+2022-10-25T14:27:29.415Z [editora-api] info PUT /autores - [{"autorId":1,"nome":"Carolina Milena Almada","email":"ccarolinamilenaalmada@gmail.com","telefone":"83996565550"},{"autorId":2,"nome":"Yago Raul da Rocha","email":"yyagorauldarocha@gmail.com","telefone":"63987932013"},{"autorId":3,"nome":"César Lucca Alves","email":"cesarluccaalv@gmail.com","telefone":"63998823896"},{"autorId":4,"nome":"Guilherme Marcos Vit","email":"guivit@gmail.com","telefone":"67-999581929"}]
+2022-10-25T14:27:36.732Z [editora-api] info GET/autores
+2022-10-25T14:27:50.361Z [editora-api] info DELETE/autores
+2022-10-25T14:27:53.778Z [editora-api] info GET/autores
+2022-10-31T12:39:17.111Z [editora-api] info GET/livros
+2022-10-31T12:39:18.891Z [editora-api] info GET/livros
+2022-10-31T12:39:24.470Z [editora-api] info GET/livros
+2022-10-31T12:39:26.019Z [editora-api] info GET/livros
+2022-10-31T12:39:45.334Z [editora-api] info GET/livros
+2022-10-31T12:42:00.530Z [editora-api] error GET  - livros is not defined
+2022-10-31T12:42:58.886Z [editora-api] info GET/livros
+2022-10-31T12:44:00.891Z [editora-api] info GET/livros
+2022-10-31T12:45:00.918Z [editora-api] info GET/livros
+2022-10-31T12:46:47.121Z [editora-api] info GET/livros
+2022-10-31T12:46:48.341Z [editora-api] info GET/livros
+2022-10-31T12:48:48.055Z [editora-api] info GET/livros
+2022-10-31T12:49:09.440Z [editora-api] info GET/livros
+2022-10-31T12:49:13.770Z [editora-api] info GET/livros
+2022-10-31T12:50:32.821Z [editora-api] info GET/livros
+2022-10-31T12:50:44.718Z [editora-api] info GET/livros
+2022-10-31T12:51:26.533Z [editora-api] info GET/livros
+2022-10-31T12:51:35.857Z [editora-api] info GET/livros
+2022-10-31T12:53:23.571Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T12:53:30.263Z [editora-api] info GET/livros
+2022-10-31T12:53:34.208Z [editora-api] info GET/livros
+2022-10-31T12:53:47.531Z [editora-api] error PUT  - Livro ID, autor ID, nome, valor e estoque são obrigatorios
+2022-10-31T12:54:09.584Z [editora-api] info GET/livros
+2022-10-31T12:54:23.131Z [editora-api] info PUT /livros - [{"livroId":1,"nome":"APIs em Node.js","valor":"90","estoque":25,"autorId":1},{"livroId":2,"nome":"JavaScript Moderno","valor":"60","estoque":5,"autorId":1},{"livroId":3,"nome":"Express na Prática","valor":"45","estoque":35,"autorId":1},{"livroId":4,"nome":"Bancos de Dados Relacionais","valor":"130","estoque":15,"autorId":2},{"livroId":5,"nome":"Bancos de Dados NoSQL","valor":"110","estoque":2,"autorId":3},{"livroId":6,"nome":"Autenticação e Autorização em APIs","valor":"70","estoque":60,"autorId":3},{"livroId":7,"nome":"Teste PUT","valor":"90","estoque":25,"autorId":1}]
+2022-10-31T12:55:00.059Z [editora-api] info PUT /livros - {"livroId":7,"nome":"Teste PUT2","valor":"90","estoque":25,"autorId":1}
+2022-10-31T12:55:40.347Z [editora-api] info DELETE/livros
+2022-10-31T12:56:19.066Z [editora-api] info GET/livros
+2022-10-31T13:00:02.378Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:00:30.181Z [editora-api] error DELETE  - livros is not defined
+2022-10-31T13:00:50.211Z [editora-api] info GET/livros
+2022-10-31T13:00:52.975Z [editora-api] info GET/livros
+2022-10-31T13:01:02.540Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:01:06.012Z [editora-api] info GET/livros
+2022-10-31T13:01:08.583Z [editora-api] info GET/livros
+2022-10-31T13:02:18.679Z [editora-api] error DELETE  - livros is not defined
+2022-10-31T13:06:24.412Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:06:27.344Z [editora-api] info GET/livros
+2022-10-31T13:06:34.116Z [editora-api] info DELETE/livros
+2022-10-31T13:06:49.024Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:06:55.979Z [editora-api] info DELETE/livros
+2022-10-31T13:08:00.813Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:08:06.476Z [editora-api] info GET/livros
+2022-10-31T13:08:12.186Z [editora-api] error DELETE  - postMessage is not defined
+2022-10-31T13:09:36.585Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:09:41.816Z [editora-api] info GET/livros
+2022-10-31T13:09:47.473Z [editora-api] error DELETE  - Message is not defined
+2022-10-31T13:09:57.499Z [editora-api] info GET/livros
+2022-10-31T13:12:21.489Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":25,"autorId":1}
+2022-10-31T13:12:24.908Z [editora-api] info GET/livros
+2022-10-31T13:12:30.396Z [editora-api] error DELETE  - window is not defined
+2022-10-31T13:12:59.209Z [editora-api] info DELETE/livros
+2022-10-31T18:16:26.614Z [editora-api] info GET/vendas
+2022-10-31T18:16:58.312Z [editora-api] info GET/vendas
+2022-10-31T18:17:29.614Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-10-12","clienteId":1,"livroId":4}
+2022-10-31T18:17:35.443Z [editora-api] info GET/vendas
+2022-10-31T18:17:42.873Z [editora-api] info GET/vendas
+2022-10-31T18:18:04.491Z [editora-api] info DELETE/vendas
+2022-10-31T18:18:09.473Z [editora-api] info GET/vendas
+2022-10-31T18:18:13.626Z [editora-api] info GET/vendas
+2022-10-31T18:21:46.104Z [editora-api] error POST  - invalid input syntax for type date: "Invalid date"
+2022-10-31T18:21:57.403Z [editora-api] error POST  - invalid input syntax for type date: "Invalid date"
+2022-10-31T18:22:32.700Z [editora-api] error POST  - invalid input syntax for type date: "Invalid date"
+2022-10-31T18:22:55.823Z [editora-api] error POST  - invalid input syntax for type date: "Invalid date"
+2022-10-31T18:23:17.457Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":4}
+2022-10-31T18:23:50.618Z [editora-api] info PUT /vendas - {"vendaId":17,"valor":"1500","data":"2022-11-30","clienteId":1,"livroId":4}
+2022-10-31T18:23:59.637Z [editora-api] info GET/vendas
+2022-10-31T18:24:10.868Z [editora-api] info DELETE/vendas
+2022-10-31T18:24:14.306Z [editora-api] info GET/vendas
+2022-10-31T18:24:32.757Z [editora-api] info GET/cliente
+2022-10-31T18:24:51.758Z [editora-api] error POST  - insert or update on table "vendas" violates foreign key constraint "fk_clientes"
+2022-10-31T18:25:07.572Z [editora-api] error POST  - insert or update on table "vendas" violates foreign key constraint "fk_livros"
+2022-10-31T18:25:19.743Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":5,"livroId":1}
+2022-10-31T18:25:29.850Z [editora-api] info GET/vendas
+2022-10-31T18:25:40.757Z [editora-api] info DELETE/vendas
+2022-10-31T18:25:43.791Z [editora-api] info GET/vendas
+2022-11-01T11:04:18.662Z [editora-api] info GET/vendas
+2022-11-01T11:04:42.250Z [editora-api] info GET/vendas
+2022-11-01T11:26:04.190Z [editora-api] error POST  - Autor ID, nome, valor e estoque são obrigatorios
+2022-11-01T11:26:13.601Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":1,"autorId":1}
+2022-11-01T11:26:59.520Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:27:13.886Z [editora-api] info GET/livros
+2022-11-01T11:27:15.550Z [editora-api] info GET/livros
+2022-11-01T11:27:37.790Z [editora-api] info GET/livros
+2022-11-01T11:27:53.279Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:27:54.568Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:28:09.986Z [editora-api] info PUT /livros - {"livroId":15,"nome":"Teste","valor":"90","estoque":10,"autorId":1}
+2022-11-01T11:28:13.460Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:28:14.260Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:29:36.392Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:30:31.373Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:33:44.833Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:33:56.425Z [editora-api] info GET/livros
+2022-11-01T11:33:59.886Z [editora-api] info GET/livros
+2022-11-01T11:35:49.249Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:36:07.386Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:38:30.437Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:38:32.150Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:38:32.892Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:39:41.554Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:40:43.361Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:42:00.439Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:42:48.356Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:43:49.886Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:45:36.556Z [editora-api] error POST  - Cannot access 'livros' before initialization
+2022-11-01T11:45:57.499Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:46:26.962Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:47:48.496Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:48:00.096Z [editora-api] error POST  - Cannot access 'livros' before initialization
+2022-11-01T11:48:44.449Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:50:04.333Z [editora-api] error POST  - VendasRepository.createVendas is not a function
+2022-11-01T11:51:35.967Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:51:37.578Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:51:38.439Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T11:53:16.005Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T11:53:39.619Z [editora-api] info GET/livros
+2022-11-01T12:04:45.844Z [editora-api] info PUT /livros - {"livroId":15,"nome":"Teste","valor":"90","estoque":1,"autorId":1}
+2022-11-01T12:04:51.329Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:04:56.756Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:05:10.140Z [editora-api] info POST /livros - {"nome":"Teste","valor":"90","estoque":2,"autorId":1}
+2022-11-01T12:05:13.118Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:05:14.495Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:05:16.868Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:05:23.439Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:05:26.169Z [editora-api] info GET/livros
+2022-11-01T12:05:27.350Z [editora-api] info GET/livros
+2022-11-01T12:05:39.690Z [editora-api] info PUT /livros - {"livroId":15,"nome":"Teste","valor":"90","estoque":5,"autorId":1}
+2022-11-01T12:05:43.242Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:05:46.798Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:05:47.880Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:05:48.711Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:05:49.404Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:06:32.456Z [editora-api] error GET  - vendasRepository is not defined
+2022-11-01T12:07:06.318Z [editora-api] info GET/vendas
+2022-11-01T12:07:25.294Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:07:31.170Z [editora-api] info PUT /livros - {"livroId":15,"nome":"Teste","valor":"90","estoque":5,"autorId":1}
+2022-11-01T12:07:33.744Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:07:37.337Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:07:38.313Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:07:39.289Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:07:40.089Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:07:43.408Z [editora-api] info GET/vendas
+2022-11-01T12:08:23.309Z [editora-api] info GET/vendas
+2022-11-01T12:12:45.101Z [editora-api] info POST /vendas - {"valor":"1500","data":"2000-05-14","clienteId":1,"livroId":15}
+2022-11-01T12:12:47.483Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:12:56.199Z [editora-api] info GET/livros
+2022-11-01T12:30:45.296Z [editora-api] error POST  - Livro sem estoque
+2022-11-01T12:30:49.912Z [editora-api] info GET/vendas

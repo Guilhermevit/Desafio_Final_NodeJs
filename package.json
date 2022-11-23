@@ -1,0 +1,20 @@
+{
+  "name": "banco-de-dados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.23.2",
+    "winston": "^3.8.2"
+  }
+}
